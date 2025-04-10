@@ -21,6 +21,8 @@ int main(int argc, char* argv[])
     FARPROC load_library_address = INVALID_FUNCTION_ADDRESS;
     HANDLE remote_thread_handle = INVALID_THREAD_HANDLE;
 
+    DWORD error = 0;
+
     /* Converting the PID to int */
     target_process_pid = atoi(argv[PID]);
 
@@ -31,7 +33,7 @@ int main(int argc, char* argv[])
     }
 
     /* Getting the Size of the DLL Path to Inject */
-    size_to_allocate = strnlen_s(argv[DLL_TO_RUN], MAXIMUM_PATH_SIZE);
+    size_to_allocate = strnlen_s(argv[DLL_TO_RUN], MAXIMUM_PATH_SIZE) + 1;
     if (MAXIMUM_PATH_SIZE == size_to_allocate || INVALID_MEMMORY_SIZE_TO_RESERVE == size_to_allocate)
     {
         printf("<INVALID DLL PATH SIZE>");
@@ -90,9 +92,10 @@ int main(int argc, char* argv[])
     /* Get the Base Address of LoadLibraryA */
     load_library_address = GetProcAddress(
         kernel32dll_handle,
-        TEXT("LoadLibraryW"));
+        TEXT("LoadLibraryA"));
     if (INVALID_FUNCTION_ADDRESS == load_library_address)
     {
+        error = GetLastError();
         printf("<FAILED TO GET FUNCTION ADDRESS>");
         return FAILED_TO_GET_FUNCTION_ADDRESS;
     }
