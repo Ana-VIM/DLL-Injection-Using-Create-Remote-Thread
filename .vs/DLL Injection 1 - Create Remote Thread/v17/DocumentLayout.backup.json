@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{EA774A5B-85CF-47DA-8175-B3E2E2AAEC5A}|DLL Injection 1 - Create Remote Thread\\DLL Injection 1 - Create Remote Thread.vcxproj|solutionrelative:DLL Injection 1 - Create Remote Thread\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA774A5B-85CF-47DA-8175-B3E2E2AAEC5A}|DLL Injection 1 - Create Remote Thread\\DLL Injection 1 - Create Remote Thread.vcxproj|C:\\Users\\USER\\source\\repos\\DLL-Injection-Using-Create-Remote-Thread\\DLL Injection 1 - Create Remote Thread\\status.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EA774A5B-85CF-47DA-8175-B3E2E2AAEC5A}|DLL Injection 1 - Create Remote Thread\\DLL Injection 1 - Create Remote Thread.vcxproj|solutionrelative:DLL Injection 1 - Create Remote Thread\\status.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EA774A5B-85CF-47DA-8175-B3E2E2AAEC5A}|DLL Injection 1 - Create Remote Thread\\DLL Injection 1 - Create Remote Thread.vcxproj|C:\\Users\\USER\\source\\repos\\DLL-Injection-Using-Create-Remote-Thread\\DLL Injection 1 - Create Remote Thread\\functions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EA774A5B-85CF-47DA-8175-B3E2E2AAEC5A}|DLL Injection 1 - Create Remote Thread\\DLL Injection 1 - Create Remote Thread.vcxproj|solutionrelative:DLL Injection 1 - Create Remote Thread\\functions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA774A5B-85CF-47DA-8175-B3E2E2AAEC5A}|DLL Injection 1 - Create Remote Thread\\DLL Injection 1 - Create Remote Thread.vcxproj|C:\\Users\\USER\\source\\repos\\DLL-Injection-Using-Create-Remote-Thread\\DLL Injection 1 - Create Remote Thread\\functions.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EA774A5B-85CF-47DA-8175-B3E2E2AAEC5A}|DLL Injection 1 - Create Remote Thread\\DLL Injection 1 - Create Remote Thread.vcxproj|solutionrelative:DLL Injection 1 - Create Remote Thread\\functions.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA774A5B-85CF-47DA-8175-B3E2E2AAEC5A}|DLL Injection 1 - Create Remote Thread\\DLL Injection 1 - Create Remote Thread.vcxproj|C:\\Users\\USER\\source\\repos\\DLL-Injection-Using-Create-Remote-Thread\\DLL Injection 1 - Create Remote Thread\\status.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EA774A5B-85CF-47DA-8175-B3E2E2AAEC5A}|DLL Injection 1 - Create Remote Thread\\DLL Injection 1 - Create Remote Thread.vcxproj|solutionrelative:DLL Injection 1 - Create Remote Thread\\status.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,20 +34,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "status.h",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DLL-Injection-Using-Create-Remote-Thread\\DLL Injection 1 - Create Remote Thread\\status.h",
               "RelativeDocumentMoniker": "DLL Injection 1 - Create Remote Thread\\status.h",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\DLL-Injection-Using-Create-Remote-Thread\\DLL Injection 1 - Create Remote Thread\\status.h",
               "RelativeToolTip": "DLL Injection 1 - Create Remote Thread\\status.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-10T21:12:38.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T21:12:38.07Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "functions.c",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DLL-Injection-Using-Create-Remote-Thread\\DLL Injection 1 - Create Remote Thread\\functions.c",
               "RelativeDocumentMoniker": "DLL Injection 1 - Create Remote Thread\\functions.c",
@@ -66,20 +65,20 @@
               "RelativeDocumentMoniker": "DLL Injection 1 - Create Remote Thread\\main.c",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\DLL-Injection-Using-Create-Remote-Thread\\DLL Injection 1 - Create Remote Thread\\main.c",
               "RelativeToolTip": "DLL Injection 1 - Create Remote Thread\\main.c",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAF4AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHYAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-04-10T21:12:32.186Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "functions.h",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DLL-Injection-Using-Create-Remote-Thread\\DLL Injection 1 - Create Remote Thread\\functions.h",
               "RelativeDocumentMoniker": "DLL Injection 1 - Create Remote Thread\\functions.h",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\DLL-Injection-Using-Create-Remote-Thread\\DLL Injection 1 - Create Remote Thread\\functions.h",
               "RelativeToolTip": "DLL Injection 1 - Create Remote Thread\\functions.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-10T21:12:38.886Z",
               "EditorCaption": ""

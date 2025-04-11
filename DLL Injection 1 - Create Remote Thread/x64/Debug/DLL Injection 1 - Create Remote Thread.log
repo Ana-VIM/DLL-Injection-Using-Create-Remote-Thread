@@ -1,5 +1,5 @@
 ﻿  main.c
-C:\Users\USER\source\repos\DLL-Injection-Using-Create-Remote-Thread\DLL Injection 1 - Create Remote Thread\main.c(95,9): warning C4133: 'function': incompatible types - from 'unsigned short [13]' to 'LPCSTR'
-C:\Users\USER\source\repos\DLL-Injection-Using-Create-Remote-Thread\DLL Injection 1 - Create Remote Thread\main.c(108,9): warning C4113: 'FARPROC' differs in parameter lists from 'LPTHREAD_START_ROUTINE'
-C:\Users\USER\source\repos\DLL-Injection-Using-Create-Remote-Thread\DLL Injection 1 - Create Remote Thread\main.c(108,9): warning C4133: 'function': incompatible types - from 'FARPROC' to 'LPTHREAD_START_ROUTINE'
+C:\Users\USER\source\repos\DLL-Injection-Using-Create-Remote-Thread\DLL Injection 1 - Create Remote Thread\main.c(107,9): warning C4113: 'FARPROC' differs in parameter lists from 'LPTHREAD_START_ROUTINE'
+C:\Users\USER\source\repos\DLL-Injection-Using-Create-Remote-Thread\DLL Injection 1 - Create Remote Thread\main.c(107,9): warning C4133: 'function': incompatible types - from 'FARPROC' to 'LPTHREAD_START_ROUTINE'
+C:\Users\USER\source\repos\DLL-Injection-Using-Create-Remote-Thread\DLL Injection 1 - Create Remote Thread\main.c(108,18): warning C4090: 'function': different 'const' qualifiers
   DLL Injection 1 - Create Remote Thread.vcxproj -> C:\Users\USER\Source\Repos\DLL-Injection-Using-Create-Remote-Thread\x64\Debug\DLL Injection 1 - Create Remote Thread.exe

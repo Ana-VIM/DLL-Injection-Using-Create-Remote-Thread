@@ -20,8 +20,8 @@ int main(int argc, char* argv[])
     HMODULE kernel32dll_handle = INVALID_MODULE_HANDLE;
     FARPROC load_library_address = INVALID_FUNCTION_ADDRESS;
     HANDLE remote_thread_handle = INVALID_THREAD_HANDLE;
-
-    DWORD error = 0;
+    DWORD remote_thread_id = 0;
+    DWORD remote_thread_status_code = 0;
 
     /* Converting the PID to int */
     target_process_pid = atoi(argv[PID]);
@@ -92,10 +92,9 @@ int main(int argc, char* argv[])
     /* Get the Base Address of LoadLibraryA */
     load_library_address = GetProcAddress(
         kernel32dll_handle,
-        TEXT("LoadLibraryA"));
+        "LoadLibraryA");
     if (INVALID_FUNCTION_ADDRESS == load_library_address)
     {
-        error = GetLastError();
         printf("<FAILED TO GET FUNCTION ADDRESS>");
         return FAILED_TO_GET_FUNCTION_ADDRESS;
     }
@@ -106,11 +105,20 @@ int main(int argc, char* argv[])
         NULL,
         0,
         load_library_address,
-        argv[DLL_TO_RUN],
+        (LPCSTR) remote_process_memmory_space,
         0,
-        NULL);
+        &remote_thread_id);
 
-    printf(":)))");
+    if (INVALID_THREAD_HANDLE == remote_thread_handle)
+    {
+        printf("<FAILED TO CREATE REMOTE THREAD>");
+        return FAILED_TO_CREATE_REMOTE_THREAD;
+    }
+    printf("Remote Thread ID: %lu\n", remote_thread_id);
+    GetExitCodeThread(remote_thread_handle, &remote_thread_status_code);
+    printf("Exit Code: %lu\n", remote_thread_status_code);
+
+    return STATUS_SUCCESS;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
