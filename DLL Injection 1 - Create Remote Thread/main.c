@@ -87,7 +87,7 @@ int main(int argc, char* argv[])
 
     /* Get the DLL Handle */
     kernel32dll_handle = GetModuleHandle(
-        "kernel32.dll");
+        TEXT ("kernel32.dll"));
 
     if (INVALID_MODULE_HANDLE == kernel32dll_handle)
     {
@@ -123,10 +123,10 @@ int main(int argc, char* argv[])
         status = FAILED_TO_CREATE_REMOTE_THREAD;
         goto cleanup;
     }
+
     status = STATUS_SUCCESS;
-
+    printf("Succeeded");
 cleanup:
-
     return status;
 }
 

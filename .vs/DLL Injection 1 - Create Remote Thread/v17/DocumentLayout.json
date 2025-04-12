@@ -13,10 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EA774A5B-85CF-47DA-8175-B3E2E2AAEC5A}|DLL Injection 1 - Create Remote Thread\\DLL Injection 1 - Create Remote Thread.vcxproj|C:\\Users\\USER\\source\\repos\\DLL-Injection-Using-Create-Remote-Thread\\DLL Injection 1 - Create Remote Thread\\functions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EA774A5B-85CF-47DA-8175-B3E2E2AAEC5A}|DLL Injection 1 - Create Remote Thread\\DLL Injection 1 - Create Remote Thread.vcxproj|solutionrelative:DLL Injection 1 - Create Remote Thread\\functions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA774A5B-85CF-47DA-8175-B3E2E2AAEC5A}|DLL Injection 1 - Create Remote Thread\\DLL Injection 1 - Create Remote Thread.vcxproj|C:\\Users\\USER\\source\\repos\\DLL-Injection-Using-Create-Remote-Thread\\DLL Injection 1 - Create Remote Thread\\functions.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EA774A5B-85CF-47DA-8175-B3E2E2AAEC5A}|DLL Injection 1 - Create Remote Thread\\DLL Injection 1 - Create Remote Thread.vcxproj|solutionrelative:DLL Injection 1 - Create Remote Thread\\functions.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -40,22 +36,9 @@
               "RelativeDocumentMoniker": "DLL Injection 1 - Create Remote Thread\\status.h",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\DLL-Injection-Using-Create-Remote-Thread\\DLL Injection 1 - Create Remote Thread\\status.h",
               "RelativeToolTip": "DLL Injection 1 - Create Remote Thread\\status.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-10T21:12:38.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "functions.c",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DLL-Injection-Using-Create-Remote-Thread\\DLL Injection 1 - Create Remote Thread\\functions.c",
-              "RelativeDocumentMoniker": "DLL Injection 1 - Create Remote Thread\\functions.c",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\DLL-Injection-Using-Create-Remote-Thread\\DLL Injection 1 - Create Remote Thread\\functions.c",
-              "RelativeToolTip": "DLL Injection 1 - Create Remote Thread\\functions.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-04-10T21:12:34.96Z",
               "EditorCaption": ""
             },
             {
@@ -66,7 +49,7 @@
               "RelativeDocumentMoniker": "DLL Injection 1 - Create Remote Thread\\main.c",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\DLL-Injection-Using-Create-Remote-Thread\\DLL Injection 1 - Create Remote Thread\\main.c",
               "RelativeToolTip": "DLL Injection 1 - Create Remote Thread\\main.c",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAAADQAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-04-10T21:12:32.186Z",
               "EditorCaption": ""
@@ -79,10 +62,9 @@
               "RelativeDocumentMoniker": "DLL Injection 1 - Create Remote Thread\\functions.h",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\DLL-Injection-Using-Create-Remote-Thread\\DLL Injection 1 - Create Remote Thread\\functions.h",
               "RelativeToolTip": "DLL Injection 1 - Create Remote Thread\\functions.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-10T21:12:38.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T21:12:38.886Z"
             }
           ]
         }
